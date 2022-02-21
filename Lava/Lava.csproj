@@ -92,118 +92,118 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="ClienteOp.cs" />
-    <Compile Include="Conexao.cs" />
-    <Compile Include="ConsultaCep.cs" />
-    <Compile Include="FormCadServico.cs">
+    <Compile Include="Cadastros\Entidades\Cliente.cs" />
+    <Compile Include="Cadastros\OperacoesDAL\ClienteOp.cs" />
+    <Compile Include="Cadastros\OperacoesDAL\Conexao.cs" />
+    <Compile Include="Utilitarios\ConsultaCep.cs" />
+    <Compile Include="Cadastros\FormCadServico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCadServico.Designer.cs">
+    <Compile Include="Cadastros\FormCadServico.Designer.cs">
       <DependentUpon>FormCadServico.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCadVeiculo.cs">
+    <Compile Include="Cadastros\FormCadVeiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCadVeiculo.Designer.cs">
+    <Compile Include="Cadastros\FormCadVeiculo.Designer.cs">
       <DependentUpon>FormCadVeiculo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDocVenda.cs">
+    <Compile Include="Venda\FormDocVenda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDocVenda.Designer.cs">
+    <Compile Include="Venda\FormDocVenda.Designer.cs">
       <DependentUpon>FormDocVenda.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRelatorioCliente.cs">
+    <Compile Include="Relatorios\FormRelatorioCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRelatorioCliente.Designer.cs">
+    <Compile Include="Relatorios\FormRelatorioCliente.Designer.cs">
       <DependentUpon>FormRelatorioCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRelatorioLucro.cs">
+    <Compile Include="Relatorios\FormRelatorioLucro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRelatorioLucro.Designer.cs">
+    <Compile Include="Relatorios\FormRelatorioLucro.Designer.cs">
       <DependentUpon>FormRelatorioLucro.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRelatorioVeiculo.cs">
+    <Compile Include="Relatorios\FormRelatorioVeiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRelatorioVeiculo.Designer.cs">
+    <Compile Include="Relatorios\FormRelatorioVeiculo.Designer.cs">
       <DependentUpon>FormRelatorioVeiculo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRelatorioVenda.cs">
+    <Compile Include="Relatorios\FormRelatorioVenda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRelatorioVenda.Designer.cs">
+    <Compile Include="Relatorios\FormRelatorioVenda.Designer.cs">
       <DependentUpon>FormRelatorioVenda.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RelCliente.cs">
+    <Compile Include="Relatorios\RelCliente.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RelCliente.Designer.cs">
+    <Compile Include="Relatorios\RelCliente.Designer.cs">
       <DependentUpon>RelCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="RelLucro.cs">
+    <Compile Include="Relatorios\RelLucro.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RelLucro.Designer.cs">
+    <Compile Include="Relatorios\RelLucro.Designer.cs">
       <DependentUpon>RelLucro.cs</DependentUpon>
     </Compile>
-    <Compile Include="RelVeiculo.cs">
+    <Compile Include="Relatorios\RelVeiculo.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RelVeiculo.Designer.cs">
+    <Compile Include="Relatorios\RelVeiculo.Designer.cs">
       <DependentUpon>RelVeiculo.cs</DependentUpon>
     </Compile>
-    <Compile Include="RelVenda.cs">
+    <Compile Include="Relatorios\RelVenda.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RelVenda.Designer.cs">
+    <Compile Include="Relatorios\RelVenda.Designer.cs">
       <DependentUpon>RelVenda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Servico.cs" />
-    <Compile Include="ServicoOp.cs" />
+    <Compile Include="Cadastros\Entidades\Servico.cs" />
+    <Compile Include="Cadastros\OperacoesDAL\ServicoOp.cs" />
     <Compile Include="TelaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TelaPrincipal.Designer.cs">
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCadCliente.cs">
+    <Compile Include="Cadastros\FormCadCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCadCliente.Designer.cs">
+    <Compile Include="Cadastros\FormCadCliente.Designer.cs">
       <DependentUpon>FormCadCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Veiculo.cs" />
-    <Compile Include="VeiculoOp.cs" />
-    <Compile Include="Venda.cs" />
-    <Compile Include="VendaOp.cs" />
-    <EmbeddedResource Include="FormCadCliente.resx">
+    <Compile Include="Cadastros\Entidades\Veiculo.cs" />
+    <Compile Include="Cadastros\OperacoesDAL\VeiculoOp.cs" />
+    <Compile Include="Cadastros\Entidades\Venda.cs" />
+    <Compile Include="Cadastros\OperacoesDAL\VendaOp.cs" />
+    <EmbeddedResource Include="Cadastros\FormCadCliente.resx">
       <DependentUpon>FormCadCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCadServico.resx">
+    <EmbeddedResource Include="Cadastros\FormCadServico.resx">
       <DependentUpon>FormCadServico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCadVeiculo.resx">
+    <EmbeddedResource Include="Cadastros\FormCadVeiculo.resx">
       <DependentUpon>FormCadVeiculo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDocVenda.resx">
+    <EmbeddedResource Include="Venda\FormDocVenda.resx">
       <DependentUpon>FormDocVenda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRelatorioCliente.resx">
+    <EmbeddedResource Include="Relatorios\FormRelatorioCliente.resx">
       <DependentUpon>FormRelatorioCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRelatorioLucro.resx">
+    <EmbeddedResource Include="Relatorios\FormRelatorioLucro.resx">
       <DependentUpon>FormRelatorioLucro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRelatorioVeiculo.resx">
+    <EmbeddedResource Include="Relatorios\FormRelatorioVeiculo.resx">
       <DependentUpon>FormRelatorioVeiculo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRelatorioVenda.resx">
+    <EmbeddedResource Include="Relatorios\FormRelatorioVenda.resx">
       <DependentUpon>FormRelatorioVenda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -216,16 +216,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RelCliente.resx">
+    <EmbeddedResource Include="Relatorios\RelCliente.resx">
       <DependentUpon>RelCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RelLucro.resx">
+    <EmbeddedResource Include="Relatorios\RelLucro.resx">
       <DependentUpon>RelLucro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RelVeiculo.resx">
+    <EmbeddedResource Include="Relatorios\RelVeiculo.resx">
       <DependentUpon>RelVeiculo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RelVenda.resx">
+    <EmbeddedResource Include="Relatorios\RelVenda.resx">
       <DependentUpon>RelVenda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaPrincipal.resx">
